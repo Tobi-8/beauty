@@ -894,25 +894,26 @@ section > * {
   flex-direction: column;
   gap: 20px;
 }
-.price-right .price-right-box {
+/* .price-right .price-right-box {
   display: flex;
   flex-direction: column;
   gap: 40px;
-}
-.price-right-box .price-right-subheading {
+} */
+.price-right .price-right-subheading {
   display: flex;
   align-items: center;
   gap: 20px;
   width: 50%;
 }
 
-.price-right-box .price-right-subheading h6 {
+ .price-right-subheading h6 {
   font-size: 30px;
   color: var(--primary-text-color);
   font-family: var(--secondary-font-family);
+  /* background-color: yellow; */
   font-weight: 500;
 }
-.price-right-box .price-right-subheading::before {
+ .price-right-subheading::before {
   content: "";
   flex-grow: 1;
   flex: 1;
@@ -1757,7 +1758,7 @@ footer .footer-container {
     width: 100%;
   }
 
-  .price-right-box .price-right-subheading h6 {
+  .price-right .price-right-subheading h6 {
     font-size: 30px;
     color: var(--primary-text-color);
     font-family: var(--secondary-font-family);
@@ -2115,7 +2116,7 @@ footer .footer-container {
     gap: 20px;
     width: 100%;
   }
-  .price-right-box .price-right-subheading h6 {
+  .price-right .price-right-subheading h6 {
     font-size: 26px;
     color: var(--primary-text-color);
     font-family: var(--secondary-font-family);
